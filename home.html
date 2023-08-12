@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <a href="home.css"></a>
+    <style>
+        body {
+        background-image: url("agri 1.jpeg");
+        background-size: cover; /* This property ensures the image covers the entire background */
+    }
+    .navbar{
+    width:1200px;
+    height:75px;
+    margin:auto;
+}
+.menu{
+    width: 450px;
+    height: 80px;
+    float: left;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 155px;
+    margin-top: 5px;
+    font-size: 22px;
+    color: black;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: blue;
+}
+.button-container {
+    position: fixed;
+    left: 40px; /* Adjust this value to control the horizontal position */
+    bottom: 40px; /* Adjust this value to control the vertical position */
+    z-index: 999; /* Ensure it's above other elements */
+}
+
+/* Style for the button */
+#bottom-left-button {
+    padding: 20px 20px;
+    background-color: rgb(9, 9, 228); /* Change this to your desired button color */
+    color: #fff; /* Change this to your desired text color */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btnn{
+  width: 240px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 30px;
+  margin-top: 30px;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+  transition: 0.4s ease;
+}
+
+
+.btnn::before{
+  content: '';
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: transparent;
+  height: 50%;
+  width: 100%;
+  transform: perspective(lem)
+  rotateX(40deg) scale(1, 0.35);
+  filter: blur(8px);
+  transition: 1s ease;
+}
+
+.btnn:hover::before{
+  background:  yellowgreen;
+  top: 70px;
+}
+.btnn:hover{
+    background: white;
+    background-color: green;
+    color: black;
+    transition: 1s ease;
+
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="icon">
+            
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="fronta page.html">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="#">REPRESENTATORS</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="button-container">
+            <button class="btnn" onclick="location.href='fronta page.html';">Click here<span class="arrow">&#8594;</span>
+                <a href="fronta page.html"></a> 
+            </button>
+        </div>
+    
+    
+</body>
+</html>

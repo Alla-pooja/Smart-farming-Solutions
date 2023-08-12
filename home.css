@@ -1,0 +1,139 @@
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+        width: 100%;
+        padding: 1px;
+         /* This enables scrolling if content overflows */
+        max-height: 400px; /* Set a maximum height for the container */
+      margin-top: 40px;
+
+      
+      
+       /* Adjust as needed */
+  }
+  .btn{
+    border-radius: 50px;
+  }
+  h1{
+    text-align: center;
+    color: #ccc;
+    display: inline;
+  }
+  .card {
+    flex: 1;
+    max-width: 300px; /* Adjust as needed */
+    border: 5px solid #ccc;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 0px 2px 4px rgba(250, 245, 245, 0.767);
+    border-radius: 50px;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  .card-content {
+    padding: 5px;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .card {
+      max-width: 100%; /* Full width on smaller screens */
+    }
+  }
+  .navbar{
+    width:1200px;
+    height:75px;
+    margin:auto;
+}
+.menu{
+    width: 450px;
+    height: 80px;
+    float: left;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 155px;
+    margin-top: 25px;
+    font-size: 22px;
+    color: white;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: blue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("https://t4.ftcdn.net/jpg/03/84/36/33/360_F_384363399_bownxk2gIFVHAgJvkVHMEzVTbDPqXxey.jpg");
+    background-position: center;
+    background-size: cover;
+    height:109vh;
+    
+
+}
+h2{
+    color: white;
+}
+.image{
+    
+    
+    width: 100%; /* Make images fill the container width */
+   height: auto; /* Maintain aspect ratio */
+   object-fit: cover; /* Scale and crop images to cover the container */
+
+    
+  }
+  .btn{
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: blue;
+    border-radius: 100px;
+  }
+  .scr{
+    color: whitesmoke;
+    font-size: 40px;
+    margin-bottom: 40px;
+
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+ }
+ 
+
+
+  
